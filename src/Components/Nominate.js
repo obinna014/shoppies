@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
-import { getMovies, addMovie, deleteMovie } from '../actions/movieActions';
+import { getMovies, addMovie, deleteMovie } from '../modules/actions/movieActions';
 import PropTypes from 'prop-types';
 
 
